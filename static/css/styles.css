@@ -1,0 +1,146 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+img{
+padding-top: 5%;
+padding-bottom: 5%;
+max-width: 50%;
+max-height: 50%;
+align: left
+}
+
+
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #159895;
+}
+
+#about{
+text-color: #fff;
+padding: 5%;
+padding-bottom: 30%;
+background-image: url('static/images/background.png');
+background-size: cover;
+background-repeat: no-repeat;
+}
+#about p{
+color: #fff;
+}
+
+
+
+header {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin-right: 1rem;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav button {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  font-size: 1.5rem;
+  margin-right: 1rem;
+}
+
+main {
+  margin: 1rem;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+.project {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  background-color: #159895
+}
+
+.project p{
+color: #fff;
+}
+
+#2{
+
+}
+
+.project img {
+  flex: 1 1 300px;
+  margin-right: 1rem;
+}
+
+.project h3 {
+  flex: 1 1 100%;
+  margin-bottom: 1rem;
+}
+
+.project p {
+  flex: 1 1 100%;
+  margin-bottom: 1rem;
+}
+
+.project a {
+  background-color: #333;
+  color: #fff;
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  margin-bottom: 0.5rem;
+}
+
+form input,
+form textarea {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+}
+
+form input[type="submit"] {
+  background-color: #333;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+}
